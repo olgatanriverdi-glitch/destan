@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Destan</title>
+<style>
+  :root {
+    --bg: #faf7f2;
+    --metin: #2a2622;
+    --soluk: #6b645c;
+    --vurgu: #8a4b1f;
+    --kart: #ffffff;
+    --sinir: #e4ddd2;
+    --uyari: #fff4d6;
+    --uyari-sinir: #e8c46a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17140f;
+      --metin: #ece6dc;
+      --soluk: #a89f93;
+      --vurgu: #e0a26a;
+      --kart: #211d17;
+      --sinir: #3a342b;
+      --uyari: #3a3014;
+      --uyari-sinir: #7a6226;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17140f;
+    --metin: #ece6dc;
+    --soluk: #a89f93;
+    --vurgu: #e0a26a;
+    --kart: #211d17;
+    --sinir: #3a342b;
+    --uyari: #3a3014;
+    --uyari-sinir: #7a6226;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--metin);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 16px 64px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+    margin: 0 0 6px;
+    color: var(--vurgu);
+  }
+  .tarih { color: var(--soluk); margin: 0 0 18px; font-size: 0.95rem; }
+  .dil-menu { margin: 0 0 18px; font-size: 0.95rem; }
+  .dil-menu a { margin-right: 14px; font-weight: 600; }
+  .tablo { overflow-x: auto; }
+  code { background: var(--sinir); padding: 0 4px; border-radius: 4px; font-size: 0.9em; }
+  .taslak {
+    background: var(--uyari);
+    border: 1px solid var(--uyari-sinir);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+  }
+  .kart {
+    background: var(--kart);
+    border: 1px solid var(--sinir);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: var(--vurgu);
+  }
+  h3 {
+    font-size: 1rem;
+    margin: 18px 0 6px;
+  }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 6px 0 12px; }
+  th, td { border: 1px solid var(--sinir); padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { color: var(--vurgu); }
+  .kontrol {
+    display: inline-block;
+    background: var(--uyari);
+    border: 1px solid var(--uyari-sinir);
+    border-radius: 6px;
+    padding: 0 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .en-bolum { border-top: 2px solid var(--sinir); margin-top: 40px; padding-top: 24px; }
+  a { color: var(--vurgu); }
+  footer { color: var(--soluk); font-size: 0.9rem; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+<header><h1>Destan</h1><p class="tarih">Olga Tanrıverdi · <a href="mailto:realmrunneroyun@gmail.com">realmrunneroyun@gmail.com</a></p></header>
+<section class="kart">
+<h2>Yasal metinler / Legal</h2>
+<ul>
+<li><a href="gizlilik.html">Gizlilik Politikası / Privacy Policy</a></li>
+<li><a href="kullanim-sartlari.html">Kullanım Şartları / Terms of Use</a></li>
+</ul>
+</section>
+</main>
+</body>
+</html>
